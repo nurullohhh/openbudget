@@ -1,0 +1,10 @@
+FROM php:8.1-cli
+
+# Ishchi katalog
+WORKDIR /app
+
+# Barcha fayllarni konteynerga ko‘chirish
+COPY . .
+
+# 10000-port orqali PHP serverni ishga tushirish
+CMD ["php", "-S", "0.0.0.0:10000", "index.php"]
