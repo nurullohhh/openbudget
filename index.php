@@ -11,8 +11,8 @@ $ref_payment = intval(file_get_contents('data/ref_payment.dat'));
 $yechish= intval(file_get_contents('data/minimal.dat'));
 
 // data papkasiga kirib owners.dat faylni toping admin idsini yozing!
-$token = "620067146:AAE2EVbKwWrCf75aK0kTqgfhfghf"; // bot tokeni
-$userboti = "ovozbot"; // bot useri @ siz yozing
+$token = "7948323914:AAEioakG7EYabtHkX4BnlrNJMapxDSoi8Qo; // bot tokeni
+$userboti = "openbudgetbot_botbot"; // bot useri @ siz yozing
 define('API_KEY', $token );
 function bot($method, $datas = [])
 {
